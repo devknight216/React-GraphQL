@@ -36,12 +36,10 @@ This project is a clone of hacker news rewritten with universal JavaScript, usin
 - Docker - (Container Deployment)
 
 ### Benefits
-
 **Front End**
 - Declarative UI - (react)
 - Flux State Management - (redux)
-- GraphQL Fragment Colocation - (react-apollo)
-- Prefetch Page Assets - (next)
+- GraphQL Query Colocation - (react-apollo)
 
 **Server**
 - Universal JS - (node & express)
@@ -59,7 +57,6 @@ This project is a clone of hacker news rewritten with universal JavaScript, usin
 - Hot Module Reloading - (next)
 - Snapshot Testing - (jest)
 - Faster Package Install - (yarn)
-- JS Best Practices - (eslint)
 
 
 ### Architecture Overview
