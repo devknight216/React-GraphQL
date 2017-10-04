@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 
-const HeaderNav = props => (console.log(props.currentUrl),
+const HeaderNav = props => (
   props.isNavVisible ?
     <span className="pagetop">
       <b className="hnname">
@@ -43,16 +43,6 @@ const HeaderNav = props => (console.log(props.currentUrl),
       <Link prefetch href="/submit">
         <a className={props.currentURL === '/submit' ? 'topsel' : ''}>submit</a>
       </Link>
-      {
-        props.currentURL === '/best' && ' | '
-      }
-      {
-        props.currentURL === '/best' && (
-          <Link prefetch href="/best">
-             <a className="topsel">best</a>
-          </Link>
-        )
-      }
     </span>
     :
     <span className="pagetop">

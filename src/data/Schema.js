@@ -56,9 +56,6 @@ const typeDefs = `
     # Newest entries first
     NEW
 
-    # Sort by score
-    BEST
-
     # SHOW HN articles
     SHOW
 
