@@ -142,6 +142,3 @@ NextJS lets us make a powerful static website but you need to consider if you ne
 
 Pull requests are welcome. File an issue for ideas, conversation or feedback.
 
-### Community
-
-After you ★Star this project, follow [@ClintonDAnnolfo](https://twitter.com/clintondannolfo) on Twitter.
